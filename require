@@ -1,0 +1,23 @@
+CHƯƠNG TRÌNH QUẢN LÝ THƯ VIỆN
+Một thư viện cần quản lý các tài liệu bao gồm, Sách, Tạp chí, Báo, nhân viên, khách hàng, bill mượn
++ Nhân viên có các thuộc tính: tên, email, số điện thoại, username, password
++ khách hàng có các thuộc tính: tên, email, số điện thoại, username, password, loại khách hàng
++ Mỗi tài liệu có các thuộc tính: Mã tài liệu, Tên nhà xuất bản, Số bản phát hành.
++ Các loại sách cần quản lý: Tên tác giả, số trang
++ Các tạp chí cần quản lý: Số phát hành, tháng phát hành
++ Các báo cần quản lý: ngày phát hành.
++ Bill mượn có thông tin các thông tin : khách hàng mượn, tài liệu mượn, ngày mượn, ngày trả, phí(nếu có),
+tình trạng (Có thể chỉnh sửa từ tài khoản nhân viên)
+1. Xây dựng các lớp để quản lý các loại tài liệu trên sao cho việc sử dụng lại được nhiều nhất.
+2. Xây dựng lớp QLThuVien cài đặt các phương thức thực hiện các công việc sau:
++ Khi khởi chạy cho người dùng đăng nhập (Với username và password)
++ Với tài khoản của nhân viên thì có các quyền quản lý sách và quản lý bill, quản lý khách hàng
+- Nhập thông tin cho một danh sách gồm n tài liệu
+- Hiển thị thông tin về các tài liệu đã nhập
++ Với tài khoản của khách hàng.
+-truy cập để mượn tài liệu dựa trên những tài liệu do khách hàng
+chọn
+-Truy cập để kiểm tra thông tin cá nhân và kiểm tra tài liệu đã
+mượn đã trả và chưa trả
++ Với khách lạ không có tài khoản chỉ cung cấp quyền xem những tài liệu mà thư viện hiện đang có
+*YÊU CẦU THÊM: mọi thứ phải lưu được xuống database
